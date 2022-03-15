@@ -1,5 +1,5 @@
 from matplotlib.pyplot import *
 
 def set_size(size):
-    """Set the size of the rest of the figures in this program."""
+    """Set the current default figure size."""
     rcParams["figure.figsize"] = size
